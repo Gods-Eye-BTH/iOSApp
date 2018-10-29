@@ -43,11 +43,16 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
   ]
 }
 ```
-After connecting the user will be greeted by this screen on the right
+After connecting the user will be greeted by the screen on the right
 ![ConnectionScreen](https://github.com/Gods-Eye-BTH/iOSApp/blob/master/Ska%CC%88rmavbild%202018-10-29%20kl.%2011.01.26.png "Connection Screen")
 ![VideoScreen](https://github.com/Gods-Eye-BTH/iOSApp/blob/master/Ska%CC%88rmavbild%202018-10-29%20kl.%2010.54.35.png "Video Screen")
 At the moment, no actual robots will be seen. There's only a dummy video being played. However, when the video server is completely setup with a working HLS url it can be displayed by putting it into the video url textfield on the previous page. 
 Under the video, you can see all the robots parsed from the JSON object. At the moment, these can only be displayed using the simulator since the app uses the localhost connection created by the JSON dummy server. 
+
+Each robot can be selected by pressing its ID number. When selected, you can change its X and Y-coordinates by using the arrows beside the play button. This doesnt actually change the json file, but it's meant to create a movement-object which can at a later stage be sent to the navigation server to actually move the objects. 
+
+### Update frequency
+At the moment, the update frequency is 5 seconds for the JSON objects. If you change the json.db file, the content in the table view will be automatically updated. The frequency of the updates are hardcoded in the project, but can easily be changed by going into the VideoViewController and finding the line where `jsonTimer` is initialized. On the line, simply change the timeInterval argument in the function call to `jsonTimer = Timer.scheduledTimer(timeInterval: secondsPlaceholder, target: self, selector: #selector(updateJson), userInfo: nil, repeats: true)`
 
 ## Running App on iPhone
 1. Plug in iPhone using USB-cable. 
