@@ -43,7 +43,10 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
   ]
 }
 ```
+After connecting the user will be greeted by this screen
 ![VideoScreen](https://github.com/Gods-Eye-BTH/iOSApp/blob/master/Ska%CC%88rmavbild%202018-10-29%20kl.%2010.54.35.png "Video Screen")
+At the moment, no actual robots will be seen. There's only a dummy video being played. However, when the video server is completely setup with a working HLS url it can be displayed by putting it into the video url textfield on the previous page. 
+Under the video, you can see all the robots parsed from the JSON object. At the moment, these can only be displayed using the simulator since the app uses the localhost connection created by the JSON dummy server. 
 
 ## Running App on iPhone
 1. Plug in iPhone using USB-cable. 
