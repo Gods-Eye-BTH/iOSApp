@@ -16,6 +16,7 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
 `{
   "Robots": [
     {
+      
       "id": 1,
       "name": "Lilleskutt",
       "x": 177,
