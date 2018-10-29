@@ -43,6 +43,8 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
   ]
 }
 ```
+![VideoScreen](https://github.com/Gods-Eye-BTH/iOSApp/blob/master/Ska%CC%88rmavbild%202018-10-29%20kl.%2010.54.35.png "Video Screen")
+
 ## Running App on iPhone
 1. Plug in iPhone using USB-cable. 
 2. In Xcode, navigate into  Preferences -> Accounts, and add your apple ID. 
