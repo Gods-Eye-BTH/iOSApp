@@ -43,3 +43,9 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
   ]
 }
 ```
+## Running App on iPhone
+1. Plug in iPhone using USB-cable. 
+2. In Xcode, navigate into  Preferences -> Accounts, and add your apple ID. 
+3. On your iPhone, you should see a popup asking you to trust the device. Click on accept. 
+4. Where you usually select which simulator you want to use, you should now be able to select "Name's iPhone" at the top of the list. Select it and press CMD+R to run the app. 
+Make sure you always run the app using CMD+R, don't run it by clicking on the icon on the springboard, since this will not compile the last changes in your code. 
