@@ -18,7 +18,7 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
   "Robots": [
     {
       "id": 1,
-      "name": "Lilleskutt",
+      "name": "Impact",
       "x": 177,
       "y": 200,
       "width": 10,
@@ -26,7 +26,7 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
     },
     {
         "id": 2,
-        "name": "Terje",
+        "name": "Space Conquerer",
         "x": 388,
         "y": 200,
         "width": 10,
@@ -34,7 +34,7 @@ When the user clicks connect, he's taken to the next viewcontroller. Here he's g
     },
     {
         "id": 3,
-        "name": "Terkolasso",
+        "name": "Horror",
         "x": 300,
         "y": 50,
         "width": 10,
