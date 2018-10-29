@@ -13,8 +13,7 @@ At the moment, leave the json textfield empty to use localhost.
 ## Video Screen
 When the user clicks connect, he's taken to the next viewcontroller. Here he's greeted by the video fetched from the server, as well as a table view where all the JSON objects parsed from the server are displayed. To add objects to the table view, add objects to the "db.json" file in the JsonServer folder. The json objects uses this common format (same as for the Android app)
 
-`{
-  "Robots": [
+`{"Robots": [
     {
       "id": 1,
       "name": "Lilleskutt",
