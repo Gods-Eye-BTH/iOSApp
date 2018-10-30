@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1797F8216A1B0A009DEEBA /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1797F7216A1B0A009DEEBA /* JsonViewController.swift */; };
+		4B1809B4217DCE200033B043 /* ConnectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1809B3217DCE200033B043 /* ConnectionCell.swift */; };
+		4B1AAF48217BB97C005752EB /* connectionlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B1AAF47217BB97C005752EB /* connectionlist.txt */; };
 		4B2199AB21675BEF00085863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2199AA21675BEF00085863 /* AppDelegate.swift */; };
 		4B2199AD21675BEF00085863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2199AC21675BEF00085863 /* ViewController.swift */; };
 		4B2199B021675BEF00085863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2199AE21675BEF00085863 /* Main.storyboard */; };
 		4B2199B221675BF000085863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2199B121675BF000085863 /* Assets.xcassets */; };
 		4B2199B521675BF000085863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2199B321675BF000085863 /* LaunchScreen.storyboard */; };
-		4B2199C021675BF000085863 /* InidiProjektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2199BF21675BF000085863 /* InidiProjektTests.swift */; };
-		4B2199CB21675BF000085863 /* InidiProjektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2199CA21675BF000085863 /* InidiProjektUITests.swift */; };
 		4B2199D92167639C00085863 /* globalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2199D82167639C00085863 /* globalVariables.swift */; };
+		4B6A0B882174A3F400C77F55 /* RobotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A0B872174A3F400C77F55 /* RobotCell.swift */; };
+		4B6F957D21700C08002B273E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F957C21700C08002B273E /* VideoViewController.swift */; };
+		EC7ABBC2C04763BAA9865AE5 /* Pods_InidiProjekt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00AA4844784C59AA4F505E /* Pods_InidiProjekt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A00AA4844784C59AA4F505E /* Pods_InidiProjekt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InidiProjekt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1797F7216A1B0A009DEEBA /* JsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewController.swift; sourceTree = "<group>"; };
+		4B1809B3217DCE200033B043 /* ConnectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCell.swift; sourceTree = "<group>"; };
+		4B1AAF47217BB97C005752EB /* connectionlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = connectionlist.txt; sourceTree = "<group>"; };
 		4B2199A721675BEF00085863 /* InidiProjekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InidiProjekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2199AA21675BEF00085863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2199AC21675BEF00085863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +51,12 @@
 		4B2199B421675BF000085863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2199B621675BF000085863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B2199BB21675BF000085863 /* InidiProjektTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InidiProjektTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B2199BF21675BF000085863 /* InidiProjektTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InidiProjektTests.swift; sourceTree = "<group>"; };
-		4B2199C121675BF000085863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B2199C621675BF000085863 /* InidiProjektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InidiProjektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B2199CA21675BF000085863 /* InidiProjektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InidiProjektUITests.swift; sourceTree = "<group>"; };
-		4B2199CC21675BF000085863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B2199D82167639C00085863 /* globalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVariables.swift; sourceTree = "<group>"; };
+		4B6A0B872174A3F400C77F55 /* RobotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCell.swift; sourceTree = "<group>"; };
+		4B6F957C21700C08002B273E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		C8E64D27AD4E636E3F7A62C4 /* Pods-InidiProjekt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InidiProjekt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InidiProjekt/Pods-InidiProjekt.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E61781C77945191DE49829 /* Pods-InidiProjekt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InidiProjekt.release.xcconfig"; path = "Pods/Target Support Files/Pods-InidiProjekt/Pods-InidiProjekt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7ABBC2C04763BAA9865AE5 /* Pods_InidiProjekt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +85,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B7278F20100E46E4A133FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A00AA4844784C59AA4F505E /* Pods_InidiProjekt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B21999E21675BEF00085863 = {
 			isa = PBXGroup;
 			children = (
 				4B2199A921675BEF00085863 /* InidiProjekt */,
-				4B2199BE21675BF000085863 /* InidiProjektTests */,
-				4B2199C921675BF000085863 /* InidiProjektUITests */,
 				4B2199A821675BEF00085863 /* Products */,
+				7ECF964BBF5F775504C312DE /* Pods */,
+				0B7278F20100E46E4A133FE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,32 +117,28 @@
 			isa = PBXGroup;
 			children = (
 				4B2199AA21675BEF00085863 /* AppDelegate.swift */,
-				4B2199D82167639C00085863 /* globalVariables.swift */,
-				4B2199AC21675BEF00085863 /* ViewController.swift */,
-				4B2199AE21675BEF00085863 /* Main.storyboard */,
 				4B2199B121675BF000085863 /* Assets.xcassets */,
-				4B2199B321675BF000085863 /* LaunchScreen.storyboard */,
+				4B2199D82167639C00085863 /* globalVariables.swift */,
 				4B2199B621675BF000085863 /* Info.plist */,
+				4B1797F7216A1B0A009DEEBA /* JsonViewController.swift */,
+				4B2199B321675BF000085863 /* LaunchScreen.storyboard */,
+				4B2199AE21675BEF00085863 /* Main.storyboard */,
+				4B6A0B872174A3F400C77F55 /* RobotCell.swift */,
+				4B1809B3217DCE200033B043 /* ConnectionCell.swift */,
+				4B1AAF47217BB97C005752EB /* connectionlist.txt */,
+				4B6F957C21700C08002B273E /* VideoViewController.swift */,
+				4B2199AC21675BEF00085863 /* ViewController.swift */,
 			);
 			path = InidiProjekt;
 			sourceTree = "<group>";
 		};
-		4B2199BE21675BF000085863 /* InidiProjektTests */ = {
+		7ECF964BBF5F775504C312DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B2199BF21675BF000085863 /* InidiProjektTests.swift */,
-				4B2199C121675BF000085863 /* Info.plist */,
+				C8E64D27AD4E636E3F7A62C4 /* Pods-InidiProjekt.debug.xcconfig */,
+				D9E61781C77945191DE49829 /* Pods-InidiProjekt.release.xcconfig */,
 			);
-			path = InidiProjektTests;
-			sourceTree = "<group>";
-		};
-		4B2199C921675BF000085863 /* InidiProjektUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B2199CA21675BF000085863 /* InidiProjektUITests.swift */,
-				4B2199CC21675BF000085863 /* Info.plist */,
-			);
-			path = InidiProjektUITests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B2199CF21675BF000085863 /* Build configuration list for PBXNativeTarget "InidiProjekt" */;
 			buildPhases = (
+				EEC8518D36A6FB759782A2BD /* [CP] Check Pods Manifest.lock */,
 				4B2199A321675BEF00085863 /* Sources */,
 				4B2199A421675BEF00085863 /* Frameworks */,
 				4B2199A521675BEF00085863 /* Resources */,
+				44FEA9DA38B5EF7E2A7DBAA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1AAF48217BB97C005752EB /* connectionlist.txt in Resources */,
 				4B2199B521675BF000085863 /* LaunchScreen.storyboard in Resources */,
 				4B2199B221675BF000085863 /* Assets.xcassets in Resources */,
 				4B2199B021675BEF00085863 /* Main.storyboard in Resources */,
@@ -254,13 +270,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44FEA9DA38B5EF7E2A7DBAA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InidiProjekt/Pods-InidiProjekt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InidiProjekt/Pods-InidiProjekt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC8518D36A6FB759782A2BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InidiProjekt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B2199A321675BEF00085863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6A0B882174A3F400C77F55 /* RobotCell.swift in Sources */,
+				4B1797F8216A1B0A009DEEBA /* JsonViewController.swift in Sources */,
 				4B2199D92167639C00085863 /* globalVariables.swift in Sources */,
 				4B2199AD21675BEF00085863 /* ViewController.swift in Sources */,
+				4B6F957D21700C08002B273E /* VideoViewController.swift in Sources */,
+				4B1809B4217DCE200033B043 /* ConnectionCell.swift in Sources */,
 				4B2199AB21675BEF00085863 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2199C021675BF000085863 /* InidiProjektTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2199CB21675BF000085863 /* InidiProjektUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,15 +499,17 @@
 		};
 		4B2199D021675BF000085863 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E64D27AD4E636E3F7A62C4 /* Pods-InidiProjekt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYN6R24DC7;
 				INFOPLIST_FILE = InidiProjekt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erik.InidiProjekt;
+				PRODUCT_BUNDLE_IDENTIFIER = erik.godsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,15 +518,17 @@
 		};
 		4B2199D121675BF000085863 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E61781C77945191DE49829 /* Pods-InidiProjekt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYN6R24DC7;
 				INFOPLIST_FILE = InidiProjekt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erik.InidiProjekt;
+				PRODUCT_BUNDLE_IDENTIFIER = erik.godsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
